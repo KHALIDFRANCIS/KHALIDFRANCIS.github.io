@@ -1,0 +1,163 @@
+	.h11 {
+		color: blue;
+		font-size: 13;
+		font-family:Georgia, 'Times New Roman', Times, serif
+	}
+	th {
+		color: blue;
+		font-size: 13;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		border-collapse: collapse;
+	}
+
+	td	{
+		color: white;
+		font-size: 14;	
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		border-collapse: separate;
+		border-spacing: 5px;
+		border-color: darkslateblue;
+	}
+
+	.asg{
+		color:brown;
+		font-size: 13;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.bkg{
+		background-color: purple;
+	}
+	khalid {
+		color: aqua;
+		font-size: 22;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+	/* dont put the dot if this is a div style  */
+	home{
+		color: aqua;
+		font-size: 16;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+	}
+	assignments{
+		color: aqua;
+		font-size: 16;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		
+	}
+
+	asg{
+		color: black;
+		font-size: 20;
+		font-family: serif;
+		text-align: center;
+
+	}
+	a:hover{
+		background-color: white;
+	}
+
+	hp{
+		color: black;
+		font-size: 50;
+		font-family: impact;
+		text-align: center;
+
+	}
+
+	wht{
+		color: aqua;
+		font-size: 30;
+		font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+		
+	}
+/* /* */
+	.baselayout{
+		/* background-color: black; */
+		text-align: center;
+	}
+
+	.landingpic{
+		text-align: center;
+		position: absolute;
+		width: 100%;
+		top: 40%;
+		left: 0;
+  		
+	}
+	.upperleft{
+		
+		text-align: left;
+		height: 200%;
+		/* background-color:coral; */
+		width: 50%
+	}
+	.upperright{
+
+		text-align: right;
+		/* background-color:green; */
+		width: 50%
+	}
+	.lowerleft{
+	
+		text-align: left;
+		/* background-color:yellow; */
+		width: 50%
+	}
+	.lowerright{
+	
+		text-align: right;
+		/* background-color: purple; */
+		width: 50%
+	}
+	.centeringdiv{
+		text-align: center;
+		margin-top: 9%;
+	}
+	.upper{
+		display: flex;
+		margin-top: 3%;
+	}
+	.lower{
+		display: flex;
+		margin-top: 9%;
+	}
+
+	.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
